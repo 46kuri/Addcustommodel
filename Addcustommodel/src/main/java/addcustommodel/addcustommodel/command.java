@@ -39,7 +39,7 @@ public class command implements CommandExecutor {
                 p.sendMessage("カスタムモデルデータ値を" + id + "に設定しました");
                 return true;
             } catch (NullPointerException | NumberFormatException e) {
-                return true;
+                return false;
             }
         }
         if (cmd.getName().equalsIgnoreCase("getcustommodel") || cmd.getName().equalsIgnoreCase("gcm")) {
