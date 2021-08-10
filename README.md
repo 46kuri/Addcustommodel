@@ -1,2 +1,3 @@
 # Addcustommodel
-手元でCMD対応済みのテクスチャを反映させるコマンド
+
+アジ鯖 Life serverで使用中のplugin
