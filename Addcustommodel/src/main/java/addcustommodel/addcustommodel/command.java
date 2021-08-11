@@ -26,7 +26,7 @@ public class command implements CommandExecutor {
             }
             if (args.length <= 0) {
                 sender.sendMessage("コマンドを正しく入力してください");
-                return true;
+                return false;
             }
             try {
                 ItemStack item = p.getInventory().getItemInMainHand();
